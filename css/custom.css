@@ -1,0 +1,780 @@
+* html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+====================
+top area start
+====================
+*/
+.section-top {
+    background: #fff;
+}
+
+.top-area {
+    background: #ed1a00;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 14px;
+}
+
+.top-area_menu ul li {
+    padding: 0 0.5em;
+}
+
+.top-area_menu ul li a {
+    color: #deb7b8;
+
+}
+
+.top-area_menu ul li a:hover {
+    text-decoration: none;
+    color: #ffd7d8;
+}
+
+.top-area_social a {
+    padding: 0 0.5em;
+    color: #ffd7d8;
+}
+
+/*
+====================
+section-menu start
+====================
+*/
+
+.logo {
+    height: 3em;
+    width: 5em;
+}
+
+.nav-link {
+    color: #444;
+}
+
+.nav-link:hover, a#navbarDropdownMenuLink:hover {
+    color: #2032a4;
+}
+
+.bg-white {
+    background-color: #efebeb !important;
+}
+
+.fa-bars {
+    color: #ed1a00;
+}
+
+/*
+====================
+section-banner start
+====================
+*/
+.section-banner {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item {
+    overflow: hidden;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    background: no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*
+====================
+section2 start
+====================
+*/
+
+.section-2 {
+    background: #66bf50;
+    padding: 1.5em 0;
+}
+
+.assessment {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.assessment-btn {
+    border-radius: 30px;
+}
+
+/*
+====================
+section3 start
+====================
+*/
+.section3 {
+    background: #fff;
+    padding: 5em 0;
+}
+
+.section3-box {
+    /*height: 15em;*/
+    width: 100%;
+    overflow: hidden;
+    margin: 0.8em 0;
+
+}
+
+.section3-box img {
+    width: 100%;
+    /*height: auto;*/
+    height: 233px;
+    vertical-align: top;
+
+}
+
+.section3-box {
+    position: relative;
+
+}
+
+.section3-box-title {
+    position: absolute;
+    top: 76%;
+    background: #ed1a00;
+    width: 100%;
+    padding: 0.5em 0.5em 0;
+    transition: 500ms ease;
+
+}
+
+.section3-box a {
+    color: #fff;
+}
+
+.section3-box-title h5 {
+    padding: 0 0.5em 0.5em;
+}
+
+.section3-box:hover .section3-box-title {
+    background: rgba(237, 26, 0, 0.65);
+    color: #fff;
+    bottom: 0;
+    top: 0;
+    padding-bottom: 0.5em;
+    transition: 500ms ease;
+}
+
+/*
+====================
+section4 start
+====================
+*/
+
+.section4 {
+    width: 100%;
+    padding: 80px 0;
+    position: relative;
+    background: url('../images/banner5.jpg');
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.section4:before {
+    content: '';
+    background: #ffffffcc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.section4-title {
+    z-index: 1;
+    color: #2aa200;
+    font-size: 2em;
+    padding: 0 0 1em 0;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.section4-title:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #a61d1e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+    /*z-index: 3;*/
+}
+
+.section4-image {
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+.section4-image img {
+    height: 12em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section4-caption {
+    position: absolute;
+    bottom: 0;
+    padding: 0.3em;
+    background: #ef1a00c9;
+    width: 100%;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.section4-image:hover {
+    border-bottom: 3px double #fff;
+    border-radius: 5px;
+    padding-bottom: 0.4em;
+    margin-top: -10px;
+    transition: 400ms ease;
+    margin-bottom: 0.4em;
+
+}
+
+/*============================
+section 5 start
+==============================
+*/
+
+.section5 {
+    background: url(../images/b1.png);
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    height: 30em;
+    position: relative;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.section5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section5-title {
+    color: white;
+    font-size: 2em;
+    line-height: 60px;
+    margin: 0 auto;
+    padding: 1em;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.section5-title:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+}
+
+.section5-body {
+    position: relative;
+    width: 100%;
+}
+
+.section5-body .carousel {
+    position: unset;
+}
+
+.carousel-item-custom img {
+    width: 100%;
+    background: no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0;
+}
+
+.carousel-custom-caption {
+    position: absolute;
+    top: 0;
+    background-color: #00000057;
+    height: 12em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.carousel-custom-caption h4 {
+    font-size: 22px;
+}
+
+.carousel-custom-caption h5 {
+    font-size: 18px;
+}
+
+.carousel-custom-caption p {
+    font-size: 16px;
+}
+
+.carousel-custom-body {
+    position: absolute;
+    height: 15em;
+}
+
+.carousel-custom-indicators {
+    position: absolute;
+    top: 13em;
+    padding-top: 1em;
+}
+
+/*.carousel-item-custom-prev {*/
+/*position: absolute;*/
+/*top: -160px;*/
+/*right: 75% !important;*/
+/*left: auto;*/
+/*}*/
+/*.carousel-item-custom-next {*/
+/*position: absolute;*/
+/*top: -160px;*/
+/*left: 75%;*/
+/*}*/
+
+/*============================
+section6 start
+==============================
+*/
+.section6 {
+    margin: 2em 0;
+}
+
+.section6-title {
+    color: #2fa912;
+    font-size: 2em;
+    line-height: 60px;
+    margin: 0 auto;
+    padding: 1em;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    text-shadow: 1px 3px 5px #9370db61;
+}
+
+.section6-title:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #ad1c23;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+}
+
+.section6-image img {
+    width: 100%;
+}
+
+.section6-caption {
+    font-size: 0.9em;
+    padding: 1em 0;
+}
+
+.section6-caption a {
+    color: #222b53;
+    text-align: center;
+}
+
+.section6-caption a:hover {
+    text-decoration: none;
+    color: #4444c9;
+}
+
+.section6-image:hover {
+
+}
+
+/*============================
+section7 start
+==============================
+*/
+
+.section7 {
+    background: #f9f9f9;
+    margin: 4em 0 0;
+}
+
+.section7-left {
+    padding: 3em 0 0;
+    text-align: center;
+}
+
+.section7-title {
+    color: #373791;
+}
+
+.section7-title h3 {
+    border-bottom: 5px double #373791;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 1px 3px 5px rgba(81, 81, 255, 0.4);
+}
+
+.section7-address div {
+    font-size: 16px;
+    padding: 0.3em 0;
+}
+
+.section7-phone div {
+    font-size: 16px;
+    padding: 0.3em 0;
+    color: #373791;
+}
+
+.section7-address, .section7-phone {
+    padding: 1em 0;
+}
+
+/*============================
+section8 start
+==============================
+*/
+
+.section8 {
+    background-image: url("../images/malaysia.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    padding: 5em 0;
+}
+
+.section8:before {
+    content: '';
+    background: rgba(33, 35, 49, 0.78);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.section8-left {
+    color: #eee;
+    text-align: justify;
+}
+
+.section8-logo img {
+    height: 4em;
+}
+
+.section8-title {
+    color: #eee;
+    border-bottom: 5px double #fff;
+    border-radius: 10px;
+    width: 80%;
+    padding: 0.8em 0.3em;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.section8-right_menu {
+    padding: 0 10px;
+}
+
+.section8-right_menu li {
+    border-bottom: 1px solid #56587c;
+    padding: 0.3em 0;
+    color: #ad1c23;
+
+}
+
+.section8-right_menu li a {
+    color: #eee;
+    font-size: 16px;
+}
+
+.section8-right_menu li a:hover {
+    text-decoration: none;
+
+}
+
+/*============================
+section-footer start
+==============================
+*/
+.copyright {
+    font-size: 14px;
+}
+
+.footer-area_social a {
+    color: #9797C6;
+    padding: 0 0.5em;
+}
+
+.footer-area_social a:first-child:hover {
+    color: lightblue;
+    padding: 0 0.5em;
+}
+
+.footer-area_social a:nth-child(2):hover {
+    color: #0077B5;
+    padding: 0 0.5em;
+}
+
+.footer-area_social a:nth-child(3):hover {
+    color: #4b9cf8;
+    padding: 0 0.5em;
+}
+
+/*===========================
+usa page start
+=============================*/
+.usa {
+    padding: 2em;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin: 1em 0;
+    height: 10em;
+    position: relative;
+}
+
+.usa-icon {
+    padding-right: 1em;
+    float: left;
+    width: 6rem;
+    height: 5rem;
+}
+
+.usa-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.usa-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.usa-short_description {
+    padding: 0 3em 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+    .usa-icon {
+        padding-right: 1em;
+        float: left;
+        width: 4em;
+        height: 3em;
+    }
+
+    .usa-title {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .usa-short_description {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .usa-more {
+        width: 0 !important;
+        height: 0 !important;
+        border-top: 2em solid transparent !important;
+        border-bottom: 2em solid transparent !important;
+        top: 25% !important;
+        position: absolute !important;
+        right: 0 !important;
+        border-right: 3em solid #b7102e !important;
+
+    }
+
+    .usa-more a {
+        font-size: 14px;
+        margin: -11px 20px !important;
+    }
+}
+
+.usa-more {
+    width: 0;
+    height: 0;
+    border-top: 3em solid transparent;
+    border-bottom: 3em solid transparent;
+    top: 20%;
+    position: absolute;
+    right: 0;
+    border-right: 4em solid #b7102e;
+}
+
+.usa-more a {
+    color: #fff;
+    padding: 0px;
+    margin: -16px 25px;
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+}
+
+.usa-more a:hover {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+/*===========================
+affiliation page start
+=============================*/
+
+.affiliation-title {
+    z-index: 1;
+    color: #2aa200;
+    font-size: 2em;
+    padding: 0 0 1em 0;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.affiliation-title:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #a61d1e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+    /*z-index: 3;*/
+}
+
+/*===========================
+australia start
+=============================*/
+.australia-banner {
+    height: 25em;
+}
+
+.australia-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.australia-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.square {
+    position: relative;
+    width: 6em;
+    height: 6em;
+    margin: -60px auto 20px;
+    background: #ed1a00;
+    padding: 1.5em;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.australia-menu_list p {
+   margin-bottom: 3em;
+}
+
+.australia-menu_list a {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.australia-menu_list a:hover {
+    text-decoration: none;
+    color: #29a100;
+
+}
+
+.australia-menu_list a:hover .square{
+    color: #29a100;
+}
+
+.profile-img-block {
+    width: 100%;
+    /* height: 100%; */
+    height: 330px;
+}
+
+.card img {
+    /* height: 12em; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*============================
+about australia
+==============================*/
+.about-australia-section3 p {
+    font-size: 16px;
+    text-align: justify;
+}
+.about-australia-section3 ul li {
+    font-size: 16px;
+
+}
+
+.about-australia_title {
+    font-size: 1.5em;
+    color: goldenrod;
+}
+
+
+
+/*============================
+management start
+==============================*/
